@@ -853,7 +853,7 @@ footer{
 
 
 /*medium devices*/                                                                                                                               
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:990px){
     
     .navbar-toggler-icon{
         width:40px;
@@ -897,7 +897,7 @@ footer{
 }  
    
 /*large devices*/
-@media (min-width:992px){
+@media screen and (min-width:991px), (max-width:990px) and (orientation: landscape){
     #navbarNav{
     position: absolute;
     top:0.5em;
